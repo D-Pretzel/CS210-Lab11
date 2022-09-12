@@ -7,6 +7,8 @@
 * ===========================================================
 */
 
+#include <stdbool.h>
+
 #define CHAR_IS_VOWEL 0
 #define CHAR_IS_CONSONANT 1
 #define CHAR_IS_OTHER 2
