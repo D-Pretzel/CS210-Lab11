@@ -1,7 +1,7 @@
 /** lab11-2.c
 * ===========================================================
-* Name: Name, Date
-* Section:
+* Name: David Petzold
+* Section: T6/7
 * Project: Lab 11-2
 * Purpose: Testing character functions implemented in Lab 11-2
 * ===========================================================
@@ -33,7 +33,7 @@ int main() {
     // ----------------------------------------------------------
     printf("Enter a single character to pass to typeOfChar():\n");
     scanf(" %c",&theChar);
-    
+
     switch (typeOfChar(theChar)) {
         case CHAR_IS_VOWEL:
             printf("A %c is a vowel.\n", theChar);
@@ -51,7 +51,7 @@ int main() {
     // ----------------------------------------------------------
     printf("Enter a single character to pass to isMagicChar():\n");
     scanf(" %c",&theChar);
-    
+
     if (isMagicChar(theChar)) {
         printf("A %c is the magic character %c.\n", theChar, MAGIC_CHAR);
     } else {
