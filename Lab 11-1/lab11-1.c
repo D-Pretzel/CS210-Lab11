@@ -26,22 +26,22 @@ int main() {
         case 'g':
             printf("Your house is Gryffindor\n");
             printf("Your founder is Godric Gryffindor\n");
-            printf("Your house colors are scarlet and gold\n");
+            printf("Your house colours are scarlet and gold\n");
             break;
         case 'h':
             printf("Your house is Hufflepuff\n");
             printf("Your founder is Helga Hufflepuff\n");
-            printf("Your house colors are yellow and black\n");
+            printf("Your house colours are yellow and black\n");
             break;
         case 'r':
             printf("Your house is Ravenclaw\n");
             printf("Your founder is Rowena Ravenclaw\n");
-            printf("Your house colors are blue and bronze\n");
+            printf("Your house colours are blue and bronze\n");
             break;
         case 's':
             printf("Your house is Slytherin\n");
             printf("Your founder is Salazar Slytherin\n");
-            printf("Your house colors are green and silver\n");
+            printf("Your house colours are green and silver\n");
             break;
         default:
             printf("No house starts with that letter\n");
